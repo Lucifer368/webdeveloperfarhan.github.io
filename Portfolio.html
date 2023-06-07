@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>My Portfolio</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            justify-content: space-around;
+            display: flex;
+            height: 90px;
+            align-items: center;
+            background-color: antiquewhite;
+            background-color: rgb(18,18,62);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style-type: none;
+            margin: 0px 25px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(153,153,226);
+            font-size: 1.01rem;
+
+        }
+        main hr{
+            border: 0px;
+            background-color: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+        .left{
+            font-size: 25px;
+        }
+        .firstsection{
+            justify-content: space-around;
+            align-items: center;
+            display: flex;
+            margin: 80px 0px;
+        }
+        .firstsection>div{
+            width: 35%;
+        }
+        .leftsection{
+            width: 35px;
+            font-size: 35px;
+            margin: 80px 0px;
+        }
+        .rightsection img{
+            margin: 50px 0px;
+            width: 80%;
+        }
+        .purple{
+            color: rgb(170,170,228);
+        }
+        #element{
+            color: rgb(170,170,228);
+        }
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+        }
+        .secondsection h1{
+            font-size: 45px;
+        }
+        .grey{
+            color: gray;
+        }
+        .pone{
+            margin: 20px;
+        }
+        .thirdsection{
+            max-width: 80vw;
+            margin: 50px auto 200px auto;
+        }
+        .thirdsection h1{
+            font-size: 45px;
+        }
+        .box{
+            background-color: white;
+            max-width: 80vw;
+            height: 2px;
+            margin: 56px 0px;
+            display: flex;
+        }
+        .vertical{
+            height: 95px;
+            width: 1px;
+            background-color: white;
+            display: flex;
+            margin: 0px 100px;
+        }
+        footer{
+            background-color: #0e0e1a;
+            height: 235px;
+        }
+        .footer{
+            display: flex;
+            padding: 25px 125px;
+            justify-content: space-evenly;
+        }
+        .footer-first{
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .btn{
+            background-color: #0e0e1a;
+            color: #9c97f1;
+        }
+        .footer-third a{
+            text-decoration: none;
+            color: #9c97f1;
+            background-color: #0e0e1a;
+        }
+        .footer-second a{
+            text-decoration: none;
+            color: #9c97f1;
+            background-color: #0e0e1a;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Farhan's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Navigation Bar is completed -->
+    <main>
+        <section class="firstsection"> 
+            <div class="leftsection">
+                Hi,My name is <span class="purple">Farhan</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+
+            </div>
+            <div class="rightsection">
+                <img src="Image1.png" alt="">
+            </div>
+        </section>
+        <!-- First section is completed -->
+        <hr>
+        <section class="secondsection">
+            <span class="grey">What I can do</span>
+            <h1>Services</h1>
+            <p class="pone">As a frontend web developer, you can provide the following services:</p>
+            <dl>
+                <dt>Website Design and Development:</dt>
+                <dd>I can create visually appealing and user-friendly websites using HTML, CSS, and JavaScript. This involves designing the layout, implementing responsive design, and ensuring cross-browser compatibility.</dd>
+            </dl><br>
+            <dl>
+                <dt>Performance Optimization:</dt>
+                <dd>Optimizing website performance by reducing file sizes, optimizing images, and implementing techniques like lazy loading or code minification. This improves the loading speed and overall performance of the website.</dd>
+            </dl><br>
+            <dl>
+                <dt>Responsive Design:</dt>
+                <dd> Creating websites that are optimized for different devices and screen sizes, ensuring they are mobile-friendly and provide a consistent user experience across platforms.</dd>
+            </dl><br>
+            <dl>
+                <dt>Maintenance and Updates:</dt>
+                <dd>Providing ongoing support and maintenance for frontend code, fixing bugs, making updates, and ensuring compatibility with evolving web standards and technologies.</dd>
+            </dl><br>
+            <dl>
+                <dt>Cross-Browser Compatibility:</dt>
+                <dd>Ensuring that websites function properly and appear consistent across different web browsers such as Chrome, Firefox, Safari, and Edge. This involves testing and fixing any compatibility issues that may arise.</dd>
+            </dl>
+        </section>
+        <!-- secondsection is completed -->
+        <hr>
+        <section class="thirdsection">
+            <span class="grey">What I have done so far</span>
+            <h1>Projects</h1>
+            <div class="box">
+                <div class="vertical">fg</div>
+                <div class="vertical">fg</div>
+                <div class="vertical">fg</div>
+                <div class="vertical">fg</div>
+                <div class="vertical">fg</div>
+            </div>
+        </section>
+        <!-- Third section is completed -->
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                Contact
+            </div>
+            <div class="footer-second">
+                E-mail: <button onclick="mailto" class="btn">lucifer368lightbringer@gmail.com</button><br><br>
+                <div>Telegram: <a href="https://t.me/Ch_Farhan" target="_blank" rel="noopener noreferrer" >Click ME</a></div>
+            </div>
+            <div class="footer-third">
+                Skype: <a href="https://join.skype.com/invite/sBivgEA5Q5KD" target="_blank" rel="noopener noreferrer">Click Me</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Frontend Web Developer'],
+          typeSpeed: 70,
+        });
+      </script>
+</body>
+</html>
